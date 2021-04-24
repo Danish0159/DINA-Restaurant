@@ -1,0 +1,54 @@
+/****************/
+/***Icons***/
+/************/
+i {
+  font-size: 7rem;
+  color: #e67e22;
+}
+
+.icon-small {
+  margin: 0.4rem 0.4rem;
+  color: #e67e22;
+  font-size: 2.4rem;
+}
+
+/****************/
+/***Buttons***/
+/************/
+.btn {
+  font-weight: 200;
+  font-size: 21px;
+  border-radius: 200px;
+  padding: 10px 30px;
+  &__small {
+    background-color: #e67e22;
+    border: none;
+    color: #fff;
+    &:hover {
+      background-color: #cf6d17;
+      cursor: pointer;
+    }
+  }
+  &__big {
+    background-color: Transparent;
+    border: 1px solid #e67e22;
+    color: #cf6d17;
+    margin-left: 15px;
+    &:hover {
+      background-color: #cf6d17;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+// @media (max-width: 700px) {
+//   .big {
+//     margin-left: 7px;
+//   }
+//   .btn {
+//     font-size: 15px;
+//     border-radius: 200px;
+//     padding: 9px 24px;
+//   }
+// }

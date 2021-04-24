@@ -1,0 +1,71 @@
+/****************/
+/***HEADINGS***/
+/************/
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-bottom: 2.2rem;
+  font-size: 4.8rem;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.2;
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 3.8rem;
+  }
+}
+
+h2 {
+  color: #555555;
+  font-size: 3.4rem;
+  word-spacing: 0.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  letter-spacing: 0.1rem;
+  &:after {
+    content: " ";
+    display: block;
+    height: 0.2rem;
+    background-color: #e67e22;
+    width: 10rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+}
+
+h3 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+// @media (max-width: 700px) {
+//   h1 {
+//     margin-bottom: 10px;
+//     font-size: 2rem;
+//     word-spacing: 1px;
+//   }
+//   h2 {
+//     font-size: 1.4rem;
+//   }
+// }
+
+/****************/
+/***Paragraphs***/
+/************/
+
+p,
+blockquote {
+  font-size: 1.9rem;
+  font-weight: 300;
+}
+
+// @media (max-width: 800px) {
+//   p,
+//   blockquote {
+//     font-size: 1rem;
+//   }
+// }
