@@ -40,8 +40,7 @@
 /************/
 .header {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/images/hero.jpg);
+  background-image: url("/images/slider_1\ \(3\).jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -414,7 +413,7 @@
 
   &__item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     @media only screen and (max-width: $bp-small) {
       flex-direction: column;
@@ -445,7 +444,7 @@
   &__btn {
     position: absolute;
     left: 35%;
-    bottom: -16%;
+    bottom: -20%;
   }
 }
 

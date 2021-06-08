@@ -18,22 +18,25 @@ i {
 .btn {
   font-weight: 200;
   font-size: 25px;
-  border-radius: 200px;
-  padding: 10px 30px;
+  padding: 10px 20px;
   &__small {
+    border-radius: 200px;
     background-color: #e67e22;
     border: none;
     color: #fff;
+    transition: all 0.3s;
     &:hover {
       background-color: #cf6d17;
       cursor: pointer;
     }
   }
   &__big {
-    background-color: Transparent;
-    border: 1px solid #e67e22;
-    color: #cf6d17;
-    margin-left: 15px;
+    border-radius: 4px;
+    background-color: #e67e22;
+    border: none;
+    color: #fff;
+    margin-left: 20px;
+    transition: all 0.3s;
     &:hover {
       background-color: #cf6d17;
       color: white;
